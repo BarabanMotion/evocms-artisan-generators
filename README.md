@@ -18,4 +18,8 @@ core/custom/packages/<Your namespace>/src/Models/Test
 Создать seeder для базы
 php artisan make:seeder TestSeeder
 core/database/seeders/TestSeeder
+
+Создать middleware
+php artisan make:middleware TestMiddleware
+core/custom/packages/<Your namespace>/src/Middleware/TestMiddleware
 ```
